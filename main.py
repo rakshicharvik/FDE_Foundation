@@ -17,3 +17,10 @@ async def doc():
 @app.get("/intro")
 async def intro():
    return "Hi Rakshi!"
+
+@app.get("/lap")
+async def lap():
+   return "laptop!"
+
+
+
