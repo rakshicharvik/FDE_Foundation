@@ -13,3 +13,7 @@ async def route():
 @app.get("/doc")
 async def doc():
   return "Hi DOCTOR!"
+
+@app.get("/intro")
+async def intro():
+   return "Hi Rakshi!"
